@@ -5,9 +5,9 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
-# Install dependencies
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+# Install dependencies with extended timeout and retry tolerance
+COPY requirements-prod.txt .
+RUN pip install --no-cache-dir --default-timeout=120 --retries 5 -r requirements-prod.txt
 
 # Copy application source
 COPY app/ ./app
