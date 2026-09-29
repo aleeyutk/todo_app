@@ -4,6 +4,14 @@ A clean, responsive, and robust **Task and Note Management Web Application** bui
 
 ---
 
+## 🌐 Live Public Deployment
+* **Live Web Dashboard:** [https://hng15-todo-aleeyu.fly.dev/](https://hng15-todo-aleeyu.fly.dev/)
+* **Interactive Swagger UI:** [https://hng15-todo-aleeyu.fly.dev/docs](https://hng15-todo-aleeyu.fly.dev/docs)
+* **ReDoc Documentation:** [https://hng15-todo-aleeyu.fly.dev/redoc](https://hng15-todo-aleeyu.fly.dev/redoc)
+* **Health Check Endpoint:** [https://hng15-todo-aleeyu.fly.dev/api/health](https://hng15-todo-aleeyu.fly.dev/api/health)
+
+---
+
 ## ✨ Key Features
 
 1. **Task Management:**
